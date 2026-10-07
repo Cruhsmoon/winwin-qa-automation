@@ -1,0 +1,16 @@
+{
+  "name": "winwin-qa-automation",
+  "version": "1.0.0",
+  "description": "WinWin.travel QA Automation test task: Playwright + JavaScript (POM)",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:guests": "playwright test tests/max-adults.spec.js",
+    "test:pets": "playwright test tests/pets-filter.spec.js",
+    "test:filters": "playwright test tests/filters-request.spec.js",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
